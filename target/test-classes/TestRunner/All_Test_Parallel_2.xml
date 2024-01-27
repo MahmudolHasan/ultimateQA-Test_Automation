@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite " >
+	<test name="Default Test">
+		<classes>
+			<class name="tests.Test_SignIn" />
+			<class name="tests.Test_POMPage" />
+			<class name="tests.Test_Checkout" />
+			<class name="tests.Test_PractisePost" />
+			<class name="tests.Test_Course_Sele_WebDriver" />
+	 		<class name="tests.Test_CoursesPage" />
+			<class name="tests.Test_ContactUs" />
+			<!--   -->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+All Test -->
