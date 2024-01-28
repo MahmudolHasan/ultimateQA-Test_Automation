@@ -34,9 +34,13 @@ cd ultimateqa-test-automation
 Allure Report is used in this repository for report generation. To create an allure report after test execution, go to the terminal and navigate to the project folder. And run:
 1. `allure serve`. This creates the same report Allure generates but puts it into a temporary directory and starts a local web server configured to show this directory's contents.
 2. `allure generate.` This command processes the test results and saves an HTML report into the allure-report directory. To view the report, use the allure open command.
-### The report of this project can be found under `src/allure-results`.
+### The report of this project can be found under `src/allure-report/index.html`.
+Some pictures of allure results of this project:
+![Total Case 
 ## License
 This project is licensed under the MIT License.
+![Reults](images/pic1.png)<br>
+![Reults -suits, and tests ](images/pic2.png)
 
 
 
