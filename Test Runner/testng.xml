@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite ">
+	<test name="SignIn ">
+		<classes>
+			<class name="tests.Test_SignIn" />
+		</classes>
+	</test>
+	<test name="Blog Post Tests">
+		<classes>
+			<class name="tests.Test_PractisePost" />
+			<class name="tests.Test_POMPage" />
+		</classes>
+	</test>
+	<test name="ContactUs">
+		<classes>
+			<class name="tests.Test_ContactUs" />
+		</classes>
+	</test>
+	<test name="Buying A course">
+		<classes>
+			<class name="tests.Test_CoursesPage" />
+			<class name="tests.Test_Course_Sele_WebDriver" />
+			<class name="tests.Test_Checkout" />
+		</classes>
+	</test>
+
+</suite> <!--
+All Test -->

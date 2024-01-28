@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-28T13:28:44 BDT" name="Default Suite " finished-at="2024-01-28T13:38:21 BDT" duration-ms="576975">
+    <groups>
+    </groups>
+    <test started-at="2024-01-28T13:28:44 BDT" name="SignIn " finished-at="2024-01-28T13:29:08 BDT" duration-ms="24435">
+      <class name="tests.Test_SignIn">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_SignIn@60df60da]" started-at="2024-01-28T13:28:44 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:28:54 BDT" duration-ms="10416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.Test_SignIn@60df60da]" started-at="2024-01-28T13:28:54 BDT" name="navigateToSignInPage" finished-at="2024-01-28T13:29:03 BDT" duration-ms="8518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPage -->
+        <test-method signature="validateCaptchAvilability()[pri:0, instance:tests.Test_SignIn@60df60da]" started-at="2024-01-28T13:29:03 BDT" name="validateCaptchAvilability" finished-at="2024-01-28T13:29:08 BDT" duration-ms="4935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCaptchAvilability -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_SignIn@60df60da]" started-at="2024-01-28T13:29:08 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:29:08 BDT" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_SignIn -->
+    </test> <!-- SignIn  -->
+    <test started-at="2024-01-28T13:29:08 BDT" name="Blog Post Tests" finished-at="2024-01-28T13:32:31 BDT" duration-ms="202197">
+      <class name="tests.Test_POMPage">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_POMPage@8ad6665]" started-at="2024-01-28T13:31:56 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:32:09 BDT" duration-ms="13526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="goToBlogPostAboutPOM()[pri:0, instance:tests.Test_POMPage@8ad6665]" started-at="2024-01-28T13:32:09 BDT" name="goToBlogPostAboutPOM" finished-at="2024-01-28T13:32:12 BDT" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBlogPostAboutPOM -->
+        <test-method signature="validationOfCommentSubmission()[pri:0, instance:tests.Test_POMPage@8ad6665]" started-at="2024-01-28T13:32:12 BDT" name="validationOfCommentSubmission" finished-at="2024-01-28T13:32:30 BDT" duration-ms="18268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCommentSubmission -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_POMPage@8ad6665]" started-at="2024-01-28T13:32:30 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:32:31 BDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_POMPage -->
+      <class name="tests.Test_PractisePost">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:08 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:29:16 BDT" duration-ms="7202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:16 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:29:19 BDT" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="checkingCommentSubmissionWithoutAnyInput()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:19 BDT" name="checkingCommentSubmissionWithoutAnyInput" finished-at="2024-01-28T13:29:28 BDT" duration-ms="8671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingCommentSubmissionWithoutAnyInput -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:28 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:29:28 BDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:28 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:29:35 BDT" duration-ms="6835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:35 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:29:38 BDT" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validateCommentNumber()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:38 BDT" name="validateCommentNumber" finished-at="2024-01-28T13:29:39 BDT" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCommentNumber -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:39 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:29:39 BDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:39 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:29:49 BDT" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:49 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:29:53 BDT" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfBlogPublishDate()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:53 BDT" name="validationOfBlogPublishDate" finished-at="2024-01-28T13:29:54 BDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfBlogPublishDate -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:54 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:29:54 BDT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:29:54 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:30:01 BDT" duration-ms="6677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:01 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:30:04 BDT" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfBlogTitle()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:04 BDT" name="validationOfBlogTitle" finished-at="2024-01-28T13:30:05 BDT" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfBlogTitle -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:05 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:30:05 BDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:05 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:30:12 BDT" duration-ms="6609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:12 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:30:17 BDT" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfCommentSubmission()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:17 BDT" name="validationOfCommentSubmission" finished-at="2024-01-28T13:30:33 BDT" duration-ms="16450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCommentSubmission -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:33 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:30:34 BDT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:34 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:30:37 BDT" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:37 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:30:45 BDT" duration-ms="8800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfDuplicateCommentCatcher()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:30:45 BDT" name="validationOfDuplicateCommentCatcher" finished-at="2024-01-28T13:31:10 BDT" duration-ms="24245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfDuplicateCommentCatcher -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:10 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:31:10 BDT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:10 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:31:19 BDT" duration-ms="9000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:19 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:31:23 BDT" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfPostAuthor()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:23 BDT" name="validationOfPostAuthor" finished-at="2024-01-28T13:31:23 BDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfPostAuthor -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:23 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:31:23 BDT" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:23 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:31:32 BDT" duration-ms="8253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigatedToPractisePost()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:32 BDT" name="navigatedToPractisePost" finished-at="2024-01-28T13:31:54 BDT" duration-ms="22664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatedToPractisePost -->
+        <test-method signature="validationOfPostPage()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:54 BDT" name="validationOfPostPage" finished-at="2024-01-28T13:31:55 BDT" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfPostPage -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_PractisePost@6ed3f258]" started-at="2024-01-28T13:31:55 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:31:56 BDT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_PractisePost -->
+    </test> <!-- Blog Post Tests -->
+    <test started-at="2024-01-28T13:32:31 BDT" name="ContactUs" finished-at="2024-01-28T13:33:15 BDT" duration-ms="44049">
+      <class name="tests.Test_ContactUs">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:31 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:32:41 BDT" duration-ms="10136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToContactUsPage()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:41 BDT" name="navigateToContactUsPage" finished-at="2024-01-28T13:32:42 BDT" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContactUsPage -->
+        <test-method signature="CheckingMessageSubmissionWithoutFullInput()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:42 BDT" name="CheckingMessageSubmissionWithoutFullInput" finished-at="2024-01-28T13:32:43 BDT" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingMessageSubmissionWithoutFullInput -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:43 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:32:44 BDT" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:44 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:32:58 BDT" duration-ms="13992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToContactUsPage()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:58 BDT" name="navigateToContactUsPage" finished-at="2024-01-28T13:32:59 BDT" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContactUsPage -->
+        <test-method signature="ValidatingSubmitMessage()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:32:59 BDT" name="ValidatingSubmitMessage" finished-at="2024-01-28T13:33:02 BDT" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingSubmitMessage -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:33:02 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:33:02 BDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:33:02 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:33:12 BDT" duration-ms="9939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToContactUsPage()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:33:12 BDT" name="navigateToContactUsPage" finished-at="2024-01-28T13:33:13 BDT" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToContactUsPage -->
+        <test-method signature="validatingTheNumberOfInputRequiredShowedInErrorMessage()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:33:13 BDT" name="validatingTheNumberOfInputRequiredShowedInErrorMessage" finished-at="2024-01-28T13:33:14 BDT" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingTheNumberOfInputRequiredShowedInErrorMessage -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_ContactUs@59d2400d]" started-at="2024-01-28T13:33:14 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:33:15 BDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_ContactUs -->
+    </test> <!-- ContactUs -->
+    <test started-at="2024-01-28T13:33:15 BDT" name="Buying A course" finished-at="2024-01-28T13:38:21 BDT" duration-ms="306208">
+      <class name="tests.Test_Checkout">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:36:13 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:36:22 BDT" duration-ms="9235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:36:22 BDT" name="navigateToCheckoutPage" finished-at="2024-01-28T13:36:45 BDT" duration-ms="22958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckoutPage -->
+        <test-method signature="functionalityOfDecreaseButton()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:36:45 BDT" name="functionalityOfDecreaseButton" finished-at="2024-01-28T13:36:52 BDT" duration-ms="7276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalityOfDecreaseButton -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:36:52 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:36:53 BDT" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:36:53 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:37:00 BDT" duration-ms="7237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:37:00 BDT" name="navigateToCheckoutPage" finished-at="2024-01-28T13:37:32 BDT" duration-ms="31964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckoutPage -->
+        <test-method signature="functionalityOfDecreaseButtonWhenProductNumberIsOne()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:37:32 BDT" name="functionalityOfDecreaseButtonWhenProductNumberIsOne" finished-at="2024-01-28T13:37:33 BDT" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalityOfDecreaseButtonWhenProductNumberIsOne -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:37:33 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:37:33 BDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:37:33 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:37:47 BDT" duration-ms="13124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCheckoutPage()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:37:47 BDT" name="navigateToCheckoutPage" finished-at="2024-01-28T13:38:18 BDT" duration-ms="31281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckoutPage -->
+        <test-method signature="validateProductIncreaseButtonFunctionality()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:38:18 BDT" name="validateProductIncreaseButtonFunctionality" finished-at="2024-01-28T13:38:20 BDT" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductIncreaseButtonFunctionality -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_Checkout@7f36662c]" started-at="2024-01-28T13:38:20 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:38:21 BDT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_Checkout -->
+      <class name="tests.Test_Course_Sele_WebDriver">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:06 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:35:16 BDT" duration-ms="9407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:16 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:35:44 BDT" duration-ms="28349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="validateCourseInfo()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:44 BDT" name="validateCourseInfo" finished-at="2024-01-28T13:35:44 BDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCourseInfo -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:44 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:35:45 BDT" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:45 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:35:54 BDT" duration-ms="9446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:35:54 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:36:13 BDT" duration-ms="18358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="validationOfCourseSyllabus()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:36:13 BDT" name="validationOfCourseSyllabus" finished-at="2024-01-28T13:36:13 BDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCourseSyllabus -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_Course_Sele_WebDriver@447a020]" started-at="2024-01-28T13:36:13 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:36:13 BDT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_Course_Sele_WebDriver -->
+      <class name="tests.Test_CoursesPage">
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:15 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:33:21 BDT" duration-ms="6444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:21 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:33:30 BDT" duration-ms="8651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="ValidateSearchFunctionalityWithValidKeyword()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:30 BDT" name="ValidateSearchFunctionalityWithValidKeyword" finished-at="2024-01-28T13:33:39 BDT" duration-ms="9306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchFunctionalityWithValidKeyword -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:39 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:33:39 BDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:39 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:33:47 BDT" duration-ms="7261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:47 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:33:54 BDT" duration-ms="7385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="searchWithInvalidKeyword()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:33:54 BDT" name="searchWithInvalidKeyword" finished-at="2024-01-28T13:34:04 BDT" duration-ms="9568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidKeyword -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:04 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:34:04 BDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:04 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:34:10 BDT" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:10 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:34:13 BDT" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="validateSearchReturnTheRightProducts()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:14 BDT" name="validateSearchReturnTheRightProducts" finished-at="2024-01-28T13:34:24 BDT" duration-ms="10755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchReturnTheRightProducts -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:24 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:34:25 BDT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+        <test-method is-config="true" signature="BrowserInitialization()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:25 BDT" name="BrowserInitialization" finished-at="2024-01-28T13:34:34 BDT" duration-ms="8896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialization -->
+        <test-method is-config="true" signature="navigateToCoursePage()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:34 BDT" name="navigateToCoursePage" finished-at="2024-01-28T13:34:39 BDT" duration-ms="5850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCoursePage -->
+        <test-method signature="validatingSearchWithEmptyInput()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:34:39 BDT" name="validatingSearchWithEmptyInput" finished-at="2024-01-28T13:35:06 BDT" duration-ms="26555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSearchWithEmptyInput -->
+        <test-method is-config="true" signature="QuiteBrowser()[pri:0, instance:tests.Test_CoursesPage@66746f57]" started-at="2024-01-28T13:35:06 BDT" name="QuiteBrowser" finished-at="2024-01-28T13:35:06 BDT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuiteBrowser -->
+      </class> <!-- tests.Test_CoursesPage -->
+    </test> <!-- Buying A course -->
+  </suite> <!-- Default Suite  -->
+</testng-results>

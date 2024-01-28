@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [All Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="tests.Test_POMPage">
+        <methods>
+          <include name="BrowserInitialization"/>
+          <include name="goToBlogPostAboutPOM"/>
+          <include name="validationOfCommentSubmission"/>
+          <include name="QuiteBrowser"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- tests.Test_POMPage -->
+      <class name="tests.Test_Course_Sele_WebDriver">
+        <methods>
+          <include name="BrowserInitialization"/>
+          <include name="navigateToCoursePage"/>
+          <include name="validationOfCourseSyllabus"/>
+          <include name="validateCourseInfo"/>
+          <include name="QuiteBrowser"/>
+        </methods>
+      </class> <!-- tests.Test_Course_Sele_WebDriver -->
+      <class name="tests.Test_SignIn">
+        <methods>
+          <include name="BrowserInitialization"/>
+          <include name="navigateToSignInPage"/>
+          <include name="ValidateSignInWithWrongCredentials"/>
+          <include name="QuiteBrowser"/>
+          <include name="ValidateSignInWithValidCredentials"/>
+          <include name="validateLoginFunctionalityWithoutAnyInput"/>
+        </methods>
+      </class> <!-- tests.Test_SignIn -->
+      <class name="tests.Test_Checkout">
+        <methods>
+          <include name="functionalityOfDecreaseButtonWhenProductNumberIsOne"/>
+          <include name="BrowserInitialization"/>
+          <include name="validateProductIncreaseButtonFunctionality"/>
+          <include name="navigateToCheckoutPage"/>
+          <include name="QuiteBrowser"/>
+        </methods>
+      </class> <!-- tests.Test_Checkout -->
+      <class name="tests.Test_PractisePost">
+        <methods>
+          <include name="navigatedToPractisePost"/>
+          <include name="BrowserInitialization"/>
+          <include name="validationOfDuplicateCommentCatcher"/>
+          <include name="validationOfPostPage"/>
+          <include name="validationOfCommentSubmission"/>
+          <include name="QuiteBrowser"/>
+        </methods>
+      </class> <!-- tests.Test_PractisePost -->
+      <class name="tests.Test_CoursesPage">
+        <methods>
+          <include name="navigateToCoursePage"/>
+          <include name="BrowserInitialization"/>
+          <include name="validatingSearchWithEmptyInput"/>
+          <include name="QuiteBrowser"/>
+        </methods>
+      </class> <!-- tests.Test_CoursesPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [All Test] -->
