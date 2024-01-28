@@ -35,8 +35,7 @@ Allure Report is used in this repository for report generation. To create an all
 1. `allure serve`. This creates the same report Allure generates but puts it into a temporary directory and starts a local web server configured to show this directory's contents.
 2. `allure generate.` This command processes the test results and saves an HTML report into the allure-report directory. To view the report, use the allure open command.
 ### The report of this project can be found under `src/allure-report/index.html`.
-Some pictures of allure results of this project:
-![Total Case 
+Some pictures of the allure results of this project: 
 ## License
 This project is licensed under the MIT License.
 ![Reults](images/pic1.png)<br>
