@@ -27,12 +27,14 @@ cd ultimateqa-test-automation
   4. Open the java file from  `/src/test/tests/`  </br>
   5. Select the Test Page  and open the Java file 
   5. Now to run the file:  </br>
-    * Can run the script as testNG suite or </br>
-    * Run from the project folder
+   i. Can run the script as testNG suite or </br>
+   ii. Run each test using the run option beside the `@Test`  annotation before each test case.(For Eclipse [TestNG for Eclipse](https://marketplace.eclipse.org/content/testng-eclipse) should be installed in Eclipse) [see this](https://www.guru99.com/install-testng-in-eclipse.html) for more information.</br>
+  iii. Run from the project folder
         ``` Bash
          mvn test
-         ```
-    * Run each test using the run option beside the `@Test`  annotation before each test case.(For Eclipse [TestNG for Eclipse](https://marketplace.eclipse.org/content/testng-eclipse) should be installed in Eclipse) [see this](https://www.guru99.com/install-testng-in-eclipse.html) for more information.
+        ```
+  
+   
 
 
 ## Reports 
