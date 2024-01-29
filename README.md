@@ -28,11 +28,12 @@ cd ultimateqa-test-automation
   5. Select the Test Page  and open the Java file 
   5. Now to run the file:  </br>
     * Can run the script as testNG suite or </br>
-    * run each test using the run option beside the `@Test`  annotation before each test case.(For Eclipse [TestNG for Eclipse](https://marketplace.eclipse.org/content/testng-eclipse) should be installed in Eclipse) [see this](https://www.guru99.com/install-testng-in-eclipse.html) for more information.
-   * Run from project folder
-       ``` bash
-       mvn test
-       ```
+    * Run from the project folder
+        ``` Bash
+         mvn test
+         ```
+    * Run each test using the run option beside the `@Test`  annotation before each test case.(For Eclipse [TestNG for Eclipse](https://marketplace.eclipse.org/content/testng-eclipse) should be installed in Eclipse) [see this](https://www.guru99.com/install-testng-in-eclipse.html) for more information.
+
 
 ## Reports 
 Allure Report is used in this repository for report generation. To create an allure report after test execution, go to the terminal and navigate to the project folder. And run:
